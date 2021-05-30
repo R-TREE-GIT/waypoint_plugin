@@ -64,6 +64,10 @@
  private:
    ros::NodeHandle nh_;
    ros::Publisher pub_;
+
+   FloatProperty* std_dev_x_;
+   FloatProperty* std_dev_y_;
+   FloatProperty* std_dev_theta_;
  };
  
  } // namespace rviz
