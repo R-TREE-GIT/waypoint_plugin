@@ -1,5 +1,11 @@
-<library path="lib/libsample_rviz_arrow_plugin">
-  <class name="rviz/SampleInitialPoseTool" type="rviz::SampleInitialPoseTool" base_class_type="rviz::Tool">
-    <description>put sample initial pose</description>
+<library path="lib/libwaypoint_plugin">
+  <class name="rviz/WaypointTool" type="rviz::WaypointTool" base_class_type="rviz::Tool">
+    <description>set waypoint</description>
+  </class>
+  <class name="rviz/RTSetGoal" type="rviz::RTGoalTool" base_class_type="rviz::Tool">
+    <description>set goal point</description>
+  </class>
+  <class name="rviz/RTSetInitialPose" type="rviz::RTInitialPoseTool" base_class_type="rviz::Tool">
+    <description>set current pose</description>
   </class>
 </library>

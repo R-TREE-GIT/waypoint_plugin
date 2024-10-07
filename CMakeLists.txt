@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(sample_rviz_arrow_plugin)
+project(waypoint_plugin)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++11)
@@ -39,7 +39,9 @@ include_directories(
 
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
-  src/rviz/sample_initialpose_tool.cpp
+  src/rviz/waypoint_tool.cpp
+  src/rviz/goal_tool.cpp
+  src/rviz/initial_pose_tool.cpp
 ) 
 
 target_link_libraries(${PROJECT_NAME}

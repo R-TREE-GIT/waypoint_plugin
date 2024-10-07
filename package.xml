@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>sample_rviz_arrow_plugin</name>
+  <name>waypoint_plugin</name>
   <version>0.0.0</version>
-  <description>The sample_rviz_arrow_plugin package</description>
+  <description>The waypoint_plugin package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="fumiyaonishi1016@gmail.com">decwest</maintainer>
+  <maintainer email="rtree0922@gmail.com">R-TREE</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
