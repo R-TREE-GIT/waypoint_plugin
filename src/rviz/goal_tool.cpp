@@ -80,6 +80,8 @@ void RTGoalTool::updateTopic()
   }
 }
 
+test
+
 void RTGoalTool::onPoseSet(double x, double y, double theta)
 {
   std::string fixed_frame = context_->getFixedFrame().toStdString();
